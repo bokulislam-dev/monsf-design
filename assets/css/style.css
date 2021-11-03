@@ -1,0 +1,1185 @@
+/* Defult CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&family=Poppins:wght@200&display=swap');
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --purple-color: #7E28A9;
+    --purple-btn: #852EB2;
+    --pc: #74418E;
+    --sc: #363636;
+    --wc: #ffffff;
+}
+
+/* Typograpgy */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header top*/
+/*header top*/
+
+.small-line {
+    width: 70px;
+    height: 1px;
+    display: inline-block;
+    background-color: #CCCCCC;
+}
+
+.big-line {
+    width: 437px;
+    height: 1px;
+    display: inline-block;
+    background-color: #CCCCCC;
+}
+
+.logo img {
+    width: 129px;
+    height: auto;
+}
+
+.menubar {
+    text-align: right;
+}
+.menubar ul{
+    padding: 0;
+    margin: 0;
+}
+.menubar ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menubar ul li:last-child {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.menubar ul li a {
+    color: #555555;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.logo i {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header {
+    border-bottom: 1px solid #7D27A9;
+}
+
+/*header end*/
+/*registration start*/
+
+#registration-section {
+    background: #EFF6FF;
+}
+
+#registration-section input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    margin: 5px 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #EFF6FF;
+}
+
+.field-icon {
+    float: right;
+    color: #787878;
+    margin-top: -30px;
+    height: 22px;
+    width: 22px;
+    position: relative;
+    z-index: 2;
+    right: 10px;
+}
+
+#registration-section .sign-up {
+    background: #FFFFFF;
+    -webkit-box-shadow: 6px 32px 34px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 6px 32px 34px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+}
+
+#registration-section .sign-up h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color: var(--purple-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+}
+
+#registration-section .sign-up button {
+    background: var(--purple-btn);
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#registration-section .sign-up .first-para {
+    color: #555555;
+    margin-top: 5px;
+    position: relative;
+}
+
+#registration-section .sign-up .second-para {
+    color: #787878;
+    margin-top: 5px;
+}
+
+/* footer-top start */
+
+/* Slider part start */
+
+.slider-part {
+    position: relative;
+}
+
+.slider-part .carousel-inner img {
+    height: auto;
+    position: relative;
+}
+
+/* .carousel-indicators {
+    position: relative;
+} */
+
+.carousel-indicators ul {
+    position: absolute;
+    bottom: 280px;
+    right: -50px;
+}
+
+.carousel-indicators ul li {
+    list-style-type: none;
+}
+
+.carousel-indicators button {
+    width: 7px !important;
+    height: 15px !important;
+    border-radius: 30% !important;
+    border: 2px solid white !important;
+}
+
+.carousel-indicators button {
+    background: none !important;
+}
+
+.carousel-indicators button.active {
+    background: #fff !important;
+
+}
+
+.slider-part .carousel-inner .content {
+    position: absolute;
+    margin-top: -48%;
+    padding-left: 130px;
+    color: #ffffff;
+}
+
+.slider-part .carousel-inner h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101px;
+    color: #FFFFFF;
+}
+
+.slider-part .carousel-inner h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.slider-part .carousel-inner a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0 50px;
+    color: #ffffff;
+    background: #23D7FF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+/* Slider part end */
+
+/* Guide part start */
+#guide-part h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--pc);
+}
+
+#guide-part h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: var(--pc);
+}
+
+#guide-part p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+}
+
+#guide-part a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    display: inline-inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    background: var(--pc);
+}
+
+#guide-part a:last-child {
+    margin-left: 20px;
+}
+
+/* Guide part end */
+
+/* Our target sector start */
+#our-terget-sector {
+    background: #E5E5E5;
+}
+
+#our-terget-sector h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #74418E;
+    border-bottom: 1px solid #CCCCCC;
+    display: inline-block;
+}
+
+#our-terget-sector img {
+    max-height: 224px;
+    width: 100%;
+}
+
+#our-terget-sector .content {
+    width: calc(100% - 10%);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: -30px;
+    z-index: 1111;
+    position: relative;
+    background: #fff;
+}
+
+#our-terget-sector .content h4 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+}
+
+#our-terget-sector .content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+}
+
+/* Our target sector end */
+
+/* Our service start */
+
+#our-service h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #74418E;
+    border-bottom: 1px solid #CCCCCC;
+    display: inline-block;
+}
+
+#our-service p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
+    color: #888888;
+}
+
+#our-service .card {
+    height: 100%;
+}
+
+#our-service .card .card-body {
+    background: #F2F2F2;
+}
+
+#our-service .card .card-body h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+}
+
+#our-service .card .card-body p {
+    margin-top: 0;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 27px;
+    line-height: 24px;
+}
+
+/*sofiul*/
+.button_style {
+    background: #983FC6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.button_style:hover {
+    color: #fff;
+}
+
+.button_style span {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 22px;
+    height: 100%;
+    background: #6E119D;
+}
+
+/*sofiul end*/
+
+
+
+
+/*
+#our-service .card .card-body a::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 38px;
+    top: 0px;
+    background: #6E119D;
+    right: -22px;
+}
+*/
+/* Our service end */
+
+/* Available opportunities start */
+#available-opportunities {
+    background: #FAFAFA;
+}
+
+#available-opportunities h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #74418E;
+    border-bottom: 1px solid #CCCCCC;
+    display: inline-block;
+}
+
+
+#available-opportunities .header-content p {
+    margin-top: 29px;
+    font-size: 16px;
+    text-align: center;
+    color: #555555;
+}
+
+#available-opportunities .inner-item p {
+    margin-top: 23px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
+
+#available-opportunities .inner-item a {
+    background: #983FC6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+/* Available opportunities end */
+
+/* Business Partner start */
+.business-partner h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #74418E;
+    border-bottom: 1px solid #CCCCCC;
+    display: inline-block;
+}
+
+.business-partner .header-content p {
+    margin-top: 29px;
+    font-size: 16px;
+    text-align: center;
+    color: #555555;
+}
+
+/* Business Partner end */
+
+/* Newslatter part start */
+
+.newslatter {
+    padding: 60px 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3a00606b), to(#2a004559)), url(../img/photos/newslatter.png);
+    background-image: linear-gradient(#3a00606b, #2a004559), url(../img/photos/newslatter.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.newslatter p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.newslatter h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+}
+
+.newslatter input {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px !important;
+    outline: none;
+    padding: 5px 20px;
+    border: none;
+    background: #fff;
+}
+
+.newslatter button {
+    position: absolute;
+    right: 4px;
+    top: 33.5px;
+    border: none;
+    border-radius: 30px !important;
+    padding: 7px 35px;
+    background: #983FC6;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Newslatter part end */
+
+#footer-top {
+    background: linear-gradient(110.36deg, #983FC6 -8.56%, #661391 126.57%);
+    color: #ffffff;
+}
+
+#footer-top h5 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    line-height: 27px;
+}
+
+#footer-top .footer-content-1 h5::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 97%;
+    height: 1px;
+    background: #ffffff;
+}
+
+#footer-top ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+#footer-top .footer-social li {
+    display: inline-block;
+    padding: 3px;
+    list-style-type: none;
+}
+
+#footer-top .footer-social li a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#footer-top .footer-social li a i {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+#footer-top .footer-social a i:hover {
+    background: #ffffff;
+    color: var(--pc);
+}
+
+#footer-top .footer-content-2 h5 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+#footer-top .footer-content-2 h5::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 97%;
+    height: 1px;
+    background: #ffffff;
+}
+
+.footer-content-2 .content li {
+    display: block;
+    padding: 5px;
+}
+
+.footer-content-2 .content li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-content-2 .about-us p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#footer-top .about-us .location {
+    margin-top: 35x;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Footer-top end */
+
+/* Footer-top start */
+footer {
+    background: #5A137E;
+}
+
+footer p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* Contact part start */
+
+/* Contact part end */
+
+
+.contact-section {
+    background: #EFF6FF;
+}
+
+.contact-section .header-content h4 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #452E7E;
+    margin-bottom: 0px;
+}
+
+.contact-section .header-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 10px;
+    color: #452E7E;
+}
+
+
+.contact-section .message-us {
+    background: #FFFFFF;
+    -webkit-box-shadow: 2px 6px 13px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 6px 13px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.contact-section .message-us h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #452E7E;
+}
+
+.contact-section input[type=text]::-webkit-input-placeholder {
+    color: #CCCCCC;
+}
+
+.contact-section input[type=text]:-ms-input-placeholder {
+    color: #CCCCCC;
+}
+
+.contact-section input[type=text]::placeholder {
+    color: #CCCCCC;
+}
+
+.contact-section textarea::-webkit-input-placeholder {
+    color: #CCCCCC;
+}
+
+.contact-section textarea:-ms-input-placeholder {
+    color: #CCCCCC;
+}
+
+.contact-section textarea::placeholder {
+    color: #CCCCCC;
+}
+
+
+.contact-section input[type=text],
+.contact-section select {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #452E7E;
+    border-radius: 3px;
+    padding: 10px 15px;
+    width: 165px;
+    outline: none;
+    border: none;
+}
+
+.contact-section select {
+    color: #CCCCCC;
+}
+
+select option {
+    color: black;
+}
+
+.contact-section .contact-info {
+    background: #FFFFFF;
+    -webkit-box-shadow: 2px 6px 13px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 6px 13px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.contact-section .contact-info h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #452E7E;
+}
+
+.contact-section .contact-info .info {
+    position: relative;
+    margin-left: 38px;
+
+}
+
+.contact-section .contact-info .info img {
+    position: absolute;
+    top: 2px;
+    left: -35px;
+    width: 17px;
+}
+
+.social-connect {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-connect li {
+    display: inline-block;
+    padding: 3px;
+}
+
+.social-connect li a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-connect li a i {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--pc);
+    border: 1px solid var(--pc);
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.social-connect a i:hover {
+    background: var(--pc);
+    color: #ffffff;
+}
+
+/* location part start */
+.location .header-content h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    color: #452E7E;
+    ;
+    letter-spacing: 0.5em;
+}
+
+.location p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #555555;
+}
+
+/* About section start  */
+.about-section {
+    background: #EFF6FF;
+}
+
+.about-section .header-content h4 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #452E7E;
+    margin-bottom: 0;
+}
+
+.about-section .header-content p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.about-section .content h4 {
+    margin-bottom: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #555555;
+}
+
+.about-section .content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.mission-vission .mission-bg {
+    background: #EFF6FF;
+}
+
+.mission-vission .mission-bg img {
+    margin: 30%;
+}
+
+.mission-vission h4 {
+    margin-top: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    color: #555555;
+}
+
+.mission-vission p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+}
+
+/* Mission vission end */
+
+/* Service page start */
+.services-page .header-content h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+    line-height: 70px;
+    color: #74418E;
+}
+
+.services-page .header-content p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 15px;
+    color: #555555;
+}
+
+.services-page .card {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    color: #74418E;
+}
+
+.services-page .card {
+    height: 100%;
+}
+
+.services-page .card .card-body {
+    background: #EFF6FF;
+}
+
+.services-page .card .card-body h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.services-page .card .card-body p {
+    margin-top: 0;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 27px;
+    line-height: 24px;
+}
+
+.services-page .card .card-body a {
+    background: #983FC6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.services-page .card .card-body a::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 38px;
+    top: 0px;
+    background: #6E119D;
+    right: -22px;
+}
+
+/* Service page end */
+
+
+/* Service Details start */
+.service-details h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 50px;
+    line-height: 63px;
+    color: #555555;
+}
+
+.service-details p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.service-details h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #555555;
+    margin-top: 38px;
+}
+
+.service-details .apply-form {
+    background: #FAFAFA;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.service-details .apply-form label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+
+.service-details .apply-form .form-control {
+    border: 1px solid #787878;
+    background: #FAFAFA;
+}
+
+.service-details .apply-form .form-control::-webkit-input-placeholder {
+    color: #D1D1D1;
+}
+
+.service-details .apply-form .form-control:-ms-input-placeholder {
+    color: #D1D1D1;
+}
+
+.service-details .apply-form .form-control::placeholder {
+    color: #D1D1D1;
+}
+
+.service-details .apply-form button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #983FC6;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    padding: 7px 30px;
+}
+
+.service-details .card .card-body {
+    background: #EFF6FF;
+}
+
+.service-details .card .card-body h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.service-details .card .card-body p {
+    margin-top: 0;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 27px;
+    line-height: 24px;
+}
+
+.service-details .card .card-body a {
+    background: #983FC6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.service-details .card .card-body a::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 38px;
+    top: 0px;
+    background: #6E119D;
+    right: -22px;
+}
+
+/* Service Details end */
+
+/* The Overlay (background) */
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    /* 25% from the top */
+    width: 100%;
+    /* 100% width */
+    text-align: center;
+    /* Centered text/links */
+    margin-top: 30px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+
+.overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #dadada;
+    display: block;
+    /* Display block instead of inline */
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+/*sofiul*/
+/*slider start*/
+.slider-item {
+    margin: 0 10px;
+}
+
+.slider-width-control {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slider-box {
+    position: relative;
+}
+
+.autoplay img {
+    width: 100%;
+}
+.row-custom{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.row-custom::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/*slider start end*/
+/*sofiul end*/
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}

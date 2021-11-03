@@ -1,0 +1,43 @@
+.service-details .card .card-body a::after {
+    height: 41.5px;
+    right: 151px;
+}
+
+.field-icon {
+    float: left;
+    right: -10px;
+}
+
+.services-page .card .card-body a::after {
+    height: 41.5px;
+    right: 151px;
+}
+
+#our-service .card .card-body a::after {
+    height: 41.5px;
+    right: 151px;
+}
+
+.newslatter button {
+    right: none;
+    left: 4px !important;
+}
+
+.service-btn > span {
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 50px;
+    background: #6E119D;
+    top: 0;
+    left: inherit;
+    right: 100%;
+    width: 22px;
+}
+.button_style span {
+    left: inherit;
+    right: 100%;
+}
+.menubar {
+    text-align: left;
+}
